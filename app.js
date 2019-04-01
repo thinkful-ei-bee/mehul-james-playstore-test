@@ -53,7 +53,9 @@ app.get('/app', (req, res) => {
   }
 
 
-  res.send(filtered_store);
+ 
+  res
+    .json(filtered_store);
   
 });
   
