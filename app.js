@@ -11,9 +11,7 @@ app.get('/', (req, res) => {
   res.send('Hello Express!');
 });
 
-app.listen(8000, () => {
-  console.log('Express server is listening on port 8000!');
-});
+
 
 
 app.get('/app', (req, res) => {
@@ -59,3 +57,4 @@ app.get('/app', (req, res) => {
   
 });
   
+module.exports = app;
